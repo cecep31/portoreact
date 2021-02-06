@@ -1,43 +1,79 @@
-
-import {Button } from 'antd';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 import {
   BrowserRouter as Router,
   Route,
   Switch,
   Redirect,
-  NavLink
+  NavLink,
 } from "react-router-dom";
-import About from './Route/About';
-import Funnya from './Route/home/ininya'
+import About from "./Route/About";
+import Home from "./Route/home";
+import Button from "@material-ui/core/Button";
 
+// function App() {
+//   return (
+//     <Router>
+//       function Pindah (this.props.) {
+//         <Redirect exact from="*" to="{hal.hal}" />
+//       }
+//       <NavLink exact to="/about">
+//         <Button onClick={Pindah("/about")} variant="contained" to="/about">pindah</Button>
+//       </NavLink>
 
-
-
-function App() {
+//       <Switch>
+//         <Route exact path="/">
+//           <Funnya />
+//         </Route>
+//         <Route exact path="/about">
+//           <About />
+//         </Route>
+//       </Switch>
+//     </Router>
+//   );
+// }
+const Navbark = () => {
   return (
-    <div>
-      <Button type='primary'>ant</Button>
-      <Router>
-        <nav>
-          <NavLink to="/" >home</NavLink>
-          <NavLink to="/about" >about</NavLink>
-        </nav>
 
-        <Switch>
-          <Route exact path="/">
-            <Funnya />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
-  )
+    <NavLink to="/about"></NavLink>
+    )
 }
 
 
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      nama: "cecep januardi",
+    };
+  }
 
+  changenama = () => {
+    this.setState({
+      nama: "jamuardi"
+    });
+
+  };
+
+  render() {
+    return (
+      <div>
+        
+        <Router>
+          <Navbark />
+
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
+}
 
 export default App;

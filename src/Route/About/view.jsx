@@ -1,9 +1,17 @@
 import React from 'react';
 
-const View = () => (
-    <div>
-        hello world
-    </div>
-);
+import { Component } from 'react'
 
-export default View;
+class Aboutpage extends Component {
+    render() {
+        return (
+            <div>
+                about page
+            </div>
+        )
+    }
+}
+
+
+
+export default Aboutpage;
