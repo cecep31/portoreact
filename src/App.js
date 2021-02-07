@@ -61,9 +61,11 @@ class App extends Component {
         
         <Router>
           <Navbark />
-
           <Switch>
             <Route exact path="/">
+              <Redirect exact from="*" to="/home" />
+            </Route>
+            <Route exact path="/home">
               <Home />
             </Route>
             <Route exact path="/about">
