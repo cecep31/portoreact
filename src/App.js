@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import About from "./Route/About";
 import Home from "./Route/home";
+import Contact from './Route/contact'
 import './app.css';
 
 
@@ -71,6 +72,9 @@ class App extends Component {
             </Route>
             <Route exact path="/about">
               <About />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </Router>

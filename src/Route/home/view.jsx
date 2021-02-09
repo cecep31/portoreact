@@ -3,9 +3,11 @@ import '../../app.css'
 
 const Homepage = () => (
 
-    <div className="container mx-auto">
+    <div>
         <Navbar />
-        home page
+        <div className="mt-7 p-2">
+            hahah
+        </div>
     </div>
 )
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../component/Navbar'
 import '../../app.css'
 
-const About = () => {
+const Contact = () => {
     return (
         <div>
             <Navbar />
@@ -13,4 +13,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Contact
