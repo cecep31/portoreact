@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./index.css";
 import {
   BrowserRouter as Router,
   Route,
@@ -9,7 +9,8 @@ import {
 } from "react-router-dom";
 import About from "./Route/About";
 import Home from "./Route/home";
-import Button from "@material-ui/core/Button";
+import './app.css';
+
 
 // function App() {
 //   return (
@@ -73,6 +74,9 @@ class App extends Component {
             </Route>
           </Switch>
         </Router>
+        <div className="mt-5 mx-auto float-right text-green-500">
+          ini dia
+        </div>
       </div>
     );
   }

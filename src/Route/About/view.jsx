@@ -1,17 +1,16 @@
-import React from 'react';
+import React from 'react'
+import Navbar from '../component/Navbar'
+import '../../app.css'
 
-import { Component } from 'react'
-
-class Aboutpage extends Component {
-    render() {
-        return (
-            <div>
-                about page
+const About = () => {
+    return (
+        <div className="container mx-auto">
+            <Navbar />
+            <div className="mt-4">
+                ini baout page
             </div>
-        )
-    }
+        </div>
+    )
 }
 
-
-
-export default Aboutpage;
+export default About

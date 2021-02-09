@@ -1,8 +1,9 @@
 import Navbar from '../component/Navbar'
+import '../../app.css'
 
 const Homepage = () => (
 
-    <div>
+    <div className="container mx-auto">
         <Navbar />
         home page
     </div>
