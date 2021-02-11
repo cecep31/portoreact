@@ -78,9 +78,7 @@ class App extends Component {
             </Route>
           </Switch>
         </Router>
-        <div className="mt-5 mx-auto float-right text-green-500">
-          ini dia
-        </div>
+        
       </div>
     );
   }

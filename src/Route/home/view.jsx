@@ -1,12 +1,17 @@
 import Navbar from '../component/Navbar'
+import Card from '../component/card'
+import Foot from '../component/footer'
+import Main from './main'
 import '../../app.css'
 
 const Homepage = () => (
 
     <div>
         <Navbar />
-        <div className="mt-7 p-2">
-            hahah
+        <div>
+            <Main />
+            <Card />
+            <Foot />
         </div>
     </div>
 )
