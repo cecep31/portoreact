@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
-import '../../app.css'
+import '../../App.css'
 
 const About = () => {
     return (

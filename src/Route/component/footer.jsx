@@ -6,9 +6,9 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 
 const footer = () => {
   return (
-    <div className="mt-5">
+    <div id="foot" className="mt-5">
       <center>
-        <div className="h-5 pt-10 pb-20 border-black shadow-md bg-gray-400 w-screen">
+        <div className="h-5 pt-10 pb-20 border-black shadow-md bg-green-600 mx-auto">
           <TwitterIcon className="cursor-pointer ml-2" />
           <FacebookIcon className="cursor-pointer ml-2" />
           <InstagramIcon className="cursor-pointer ml-2" />

@@ -10,7 +10,7 @@ import {
 import About from "./Route/About";
 import Home from "./Route/home";
 import Contact from './Route/contact'
-import './app.css';
+import './App.css';
 
 
 // function App() {

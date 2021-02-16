@@ -2,7 +2,8 @@ import Navbar from '../component/Navbar'
 import Card from '../component/card'
 import Foot from '../component/footer'
 import Main from './main'
-import '../../app.css'
+import '../../App.css'
+import SchoolIcon from '@material-ui/icons/School';
 
 const Homepage = () => (
 
@@ -10,7 +11,11 @@ const Homepage = () => (
         <Navbar />
         <div>
             <Main />
-            <Card />
+            <div className="md:flex md:justify-between md:mt-5">
+
+                <Card title="Study On Progress"/>
+                <Card title="Last Study"/>
+            </div>
             <Foot />
         </div>
     </div>
