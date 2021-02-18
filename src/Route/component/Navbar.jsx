@@ -12,20 +12,11 @@ const Navbar = () => {
         </div>
         <div className="hid">
           <div className="flex items-center">
-            <div className="pt-5 hover:text-red-600">
-              <NavLink exact activeClassName="text-red-600" to="#main">Home</NavLink>
+            <div className="pt-5 ml-3 hover:text-red-600">
+              <a href="#about">About</a>
             </div>
             <div className="pt-5 ml-3 hover:text-red-600">
-              <NavLink activeClassName="text-red-600" to="/about">About</NavLink>
-            </div>
-            <div className="pt-5 ml-3 hover:text-red-600">
-              <NavLink activeClassName="text-red-600" to="/contact">Contact</NavLink>
-            </div>
-            <div className="pt-5 ml-3 hover:text-red-600">
-              <a href="#foot">foot</a>
-            </div>
-            <div className="pt-5 ml-3 hover:text-red-600">
-              <a href="#home">Home</a>
+              <a href="#foot">Contact</a>
             </div>
           </div>
         </div>

@@ -1,13 +1,12 @@
 import React from "react";
 import "../../App.css";
-import Bigi from "../component/img/bug.jpg";
 import { NavLink } from "react-router-dom";
 import Ibalku from '../component/img/ibal.jpg'
 
 const Main = () => {
   return (
     <center className="">
-      <section id="home"
+      <section id="about"
         className="bg-green-600 bg-no-repeat lg:bg-cover pt-16"
       >
         <div><img src={Ibalku} className="rounded-full flex items-center justify-center pt-20" width="200px" alt=""/></div>

@@ -1,7 +1,7 @@
 import Navbar from '../component/Navbar'
 import Card from '../component/card'
 import Foot from '../component/footer'
-import Main from './main'
+import Main from '../component/main'
 import '../../App.css'
 import SchoolIcon from '@material-ui/icons/School';
 
