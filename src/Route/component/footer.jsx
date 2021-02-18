@@ -12,7 +12,7 @@ const footer = () => {
           <TwitterIcon className="cursor-pointer ml-2" />
           <FacebookIcon className="cursor-pointer ml-2" />
           <InstagramIcon className="cursor-pointer ml-2" />
-        <div className="mt-2 ">design by <a className="hover:text-red-600 hover:underline text-gray-700" href="https://www.linkedin.com/in/cecep-januardi-9483101a5/">Cecep Januardi</a></div>
+        <div className="mt-2 ">design by <a className="hover:text-red-600 hover:underline text-gray-700" href="https://www.linkedin.com/in/cecep-januardi-9483101a5/">Pilput</a></div>
         </div>
       </center>
     </div>
