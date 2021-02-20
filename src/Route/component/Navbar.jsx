@@ -16,7 +16,7 @@ const Navbar = () => {
               <a href="#about">About</a>
             </div>
             <div className="pt-5 ml-3 hover:text-red-600">
-              <a href="#foot">Portfolio</a>
+              <a href="#port">Portfolio</a>
             </div>
             <div className="pt-5 ml-3 hover:text-red-600">
               <a href="#contact">Contact</a>

@@ -6,7 +6,7 @@ import ipb from "./img/ipbn.png";
 
 const Card = () => {
   return (
-    <div className="md:flex md:justify-between mt-5">
+    <div id="port" className="md:flex md:justify-between mt-5">
       <div className="max-w-md  bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl group hover:shadow hover:bg-green-600 sm">
         <div className="md:flex">
           <div className="md:flex-shrink-0">

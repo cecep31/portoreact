@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <center className="">
       <section id="about"
-        className="bg-green-600 bg-no-repeat lg:bg-cover pt-16"
+        className="bg-green-500 bg-no-repeat lg:bg-cover pt-16"
       >
         <div><img src={Ibalku} className="rounded-full flex items-center justify-center pt-20" width="200px" alt=""/></div>
         <div className="">
