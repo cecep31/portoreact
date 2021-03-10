@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 import "./index.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-  NavLink,
-} from "react-router-dom";
+
 import About from "./Route/About";
 import Home from "./Route/home";
 import Contact from './Route/contact'
@@ -35,13 +29,6 @@ import './App.css';
 //     </Router>
 //   );
 // }
-const Navbark = () => {
-  return (
-
-    <NavLink to="/about"></NavLink>
-    )
-}
-
 
 class App extends Component {
   constructor() {
@@ -61,25 +48,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        
-        <Router>
-          <Navbark />
-          <Switch>
-            <Route exact path="/">
-              <Redirect exact from="*" to="/home" />
-            </Route>
-            <Route exact path="/home">
+
               <Home />
-            </Route>
-            <Route exact path="/about">
-              <About />
-            </Route>
-            <Route exact path="/contact">
-              <Contact />
-            </Route>
-          </Switch>
-        </Router>
-        
+
       </div>
     );
   }
